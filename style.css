@@ -84,7 +84,7 @@ ul li{list-style: none;}
 .table li{
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
-  background: url('../проба/фото/галка.jpg')left 0 no-repeat;
+  background: url('../фото/галка.jpg')left 0 no-repeat;
   padding: 15px 0 8px 50px;
 }
 .table li:nth-child(1){
@@ -119,6 +119,6 @@ text-decoration: line-through;
 
 }
 span{
-  background: url('../проба/фото/стрелка.png')right 4px no-repeat;
+  background: url('../фото/стрелка.png')right 4px no-repeat;
   padding: 0 32px 0 0 ;
 }

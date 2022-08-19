@@ -1,31 +1,124 @@
-.section{
-    /* max-width:  70%; */
-    margin: 24px 400px 20px 400px ;
+ /*Обнуление*/
+/* *{
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
-h1{
-    font-family: sans-serif;
-    font-size: 32px;
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
-h2,h3{
-    font-family: sans-serif;
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
 }
-.rightpic{
-    float: right;
-    margin: 3px;
+/* input,button,textarea{font-family:inherit;} */
+
+/* input::-ms-clear{display: none;} */
+/* button{cursor: pointer;} */
+/* button::-moz-focus-inner {padding:0;border:0;} */
+a, a:visited{text-decoration: none;}
+/* a:hover{text-decoration: none;} */
+ul li{list-style: none;} 
+/* img{vertical-align: top;} */
+
+/* h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} */
+
+
+
+ body{
+  background-color:rgb(220, 220, 220);
+ }
+ .header{
+  padding: 125px 0 137px 0;
+  max-width: 841px;
+  margin: 0 auto;
 }
-p.text1{
-margin-left: 70px;
+.contener{
+  text-align: center;
 }
-figcaption{
-    font-style: italic;
-    /* font-family: cursive; */
+.title{
+  padding: 50px 40px 20px 40px;
+  font-size: 20px;
+  font-family: Arial ;
+  text-transform: uppercase;
+  color: rgb( 186, 205, 194,3);
 }
-table{
-   width: auto;
-   border: 1px double black;
-   border-collapse: collapse;
+.subtitle{
+  opacity: 0.8;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #273d46;
+}
+.icon{
+  box-shadow: 0 16px 55px rgba(255, 255, 255 0.20);
+  background-color: #fff;
+  padding: 10px;
+  max-width: 100%;
+  margin: 0 0 90px 0;
+}
+.text1{
+  /* font-size: 30px;
+  line-height: 50px; */
+  opacity: 0.8;
+  font-size: 24px;
+  line-height: 40px;
+  color: #273d46;
+  text-align: justify;
+}
+.text1 p{
+  padding: 0 0 40px 0 ;
+}
+.table li{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url('../проба/фото/галка.jpg')left 0 no-repeat;
+  padding: 15px 0 8px 50px;
+}
+.table li:nth-child(1){
+text-shadow: 2px 1px 2px #000;
+}
+.table li:nth-child(2){
+color: #80b7b3;
+font-style: italic ;
+}
+.table li:nth-child(3){
+font-weight:600;
+}
+.table li:nth-child(4){
+text-decoration: line-through;
+}
+.table li:nth-child(4) span{
+  opacity: 0.3;
+}
+.batton{
+  color: #fff;
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+  height:44px;
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 44px;
+  margin: 0 20px;
+  background-color:#80b7b3 ;
+  box-shadow: 0px 0px 0px 0px;
+  border-radius: 30px;
+  letter-spacing: 2.8px;
 
 }
-.caption{
-    caption-side: top;
+span{
+  background: url('../проба/фото/стрелка.png')right 4px no-repeat;
+  padding: 0 32px 0 0 ;
 }
